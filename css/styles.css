@@ -1,0 +1,134 @@
+body {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #434455;
+    background-color: #fff;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+a {
+    text-decoration: none;
+    font-family: inherit;
+    color: inherit;
+}
+a:hover, 
+a:active,
+a:focus 
+{
+    color: #404bbf;
+}
+ul {
+    list-style: none;
+}
+.logo {
+    font-family: "Raleway", sans-serif;
+    color: #4d5ae5;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+.logo-text {
+    font-family: "Raleway", sans-serif;
+    color: #2e2f42;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+.section-hero {
+    background-color: #2e2f42;
+}
+.main-nav-item {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}   
+.nav-link {
+    color: #2e2f42;
+}
+.contact {
+    font-family: inherit;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 1.5;
+   letter-spacing: 0.02em;
+   font-style: normal;
+}
+h1 {
+    color: #ffffff; 
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    text-align: center;
+}
+.btn-primary {
+    border-radius: 4px;
+    width: 169px;
+    height: 56px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    font-family: inherit;
+    color: #ffffff;
+    background-color: #4d5ae5;
+    cursor: pointer;
+}
+.btn-primary:hover,
+.btn-primary:focus {
+    background-color: #404bbf;
+}
+h2 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2e2f42;
+}
+.team-section {
+   background-color: #f4f4fd; 
+   text-align: center;
+}
+.text-hero {
+    text-align: left
+}
+h3 {
+    color: #2e2f42;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+.team-item {
+    background-color: #ffffff;
+}
+img {
+    display: block;
+}
+footer {
+    background-color: #2e2f42;
+}
+.text-footer {
+    font-weight: 400;
+    line-height: 1,5;
+    letter-spacing: 0.02em;  
+    color: #f4f4fd;
+}
+.footer-logo {
+    color: #f4f4fd;
+}
