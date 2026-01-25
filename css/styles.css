@@ -281,6 +281,7 @@ img {
     width: 264px;
     display: flex;
     flex-direction: column;
-    align-items: start;
     margin: 0;
+    justify-self: start;
+
 }
