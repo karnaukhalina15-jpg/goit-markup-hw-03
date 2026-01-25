@@ -135,13 +135,11 @@ h1 {
     line-height: 1.07;
     letter-spacing: 0.02em;
     width: 496px;
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
 }
 .btn-primary {
     border-radius: 4px;
-    width: 169px;
-    height: 56px;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -150,7 +148,8 @@ h1 {
     color: #ffffff;
     background-color: #4d5ae5;
     cursor: pointer;
-    margin-top: 48px;
+    padding: 16px 32px;
+    margin: 48px auto 0 auto;
 }
 .btn-primary:hover,
 .btn-primary:focus {
@@ -182,10 +181,11 @@ h2 {
     clip: rect(0 0 0 0);
     overflow: hidden;
 }
-
-.header-container {
-    width: calc((100% - 72) / 4);
- 
+.hero-container{
+    width: calc((100% - 72) / 4); 
+}
+.hero-item {
+   width: 264px;
 }
 .hero-list {
      display: flex;
@@ -223,19 +223,19 @@ p {
     display: flex;
     justify-content: space-between;
     column-gap: 24px;
-    width: calc((100% - 72) / 4);
     margin: 0;
-    border-radius: 0 0 4px 4px;
+    
 }
 .team-item {
     background-color: #ffffff;
-    width: 264px;
+    border-radius: 0 0 4px 4px;
+    padding: 0px 0px 32px;
 }
 .name-post {
     background-color: #ffffff;
     display: flex;
     margin: 0 auto;
-    padding: 32px 16px;
+    padding: 32px 16px 0 16px;
     align-items: center;
     flex-direction: column;
     row-gap: 8px;
@@ -252,12 +252,11 @@ p {
     column-gap: 24px;
 }
 .portfolio-name {
-    border-bottom: 1px solid #E7E9FC;
-    border-left: 1px solid #E7E9FC;
-    border-right: 1px solid #E7E9FC;
+    border: 1px solid #E7E9FC;
     padding: 32px 16px;
     width: 360px;
     height: 120px;
+    border-top: none;
 }
 img {
     display: block;
@@ -267,21 +266,20 @@ img {
     padding-top: 100px;
     padding-bottom: 100px;
 }
+.footer-container {
+    display: inline-block;
+    max-width: 1158px;
+}
 .text-footer {
     padding-top: 16px;
     font-weight: 400;
     line-height: 1,5;
     letter-spacing: 0.02em;  
     color: #f4f4fd;
+    width: 264px;
 }
 .footer-logo {
     color: #f4f4fd;
+    margin-bottom: 16px;
 }
-.footer-container {
-    width: 264px;
-    display: flex;
-    flex-direction: column;
-    margin: 0;
-    justify-self: start;
 
-}
