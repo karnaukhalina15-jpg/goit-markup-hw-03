@@ -184,6 +184,9 @@ h2 {
 .hero-container{
     width: calc((100% - 72) / 4); 
 }
+.text-hero {
+   margin: 0 auto;
+}
 .hero-item {
    width: 264px;
 }
@@ -224,21 +227,20 @@ p {
     justify-content: space-between;
     column-gap: 24px;
     margin: 0;
-    
 }
 .team-item {
     background-color: #ffffff;
     border-radius: 0 0 4px 4px;
-    padding: 0px 0px 32px;
 }
 .name-post {
     background-color: #ffffff;
     display: flex;
     margin: 0 auto;
-    padding: 32px 16px 0 16px;
+    padding: 32px 16px;
     align-items: center;
     flex-direction: column;
     row-gap: 8px;
+    border-radius: 0 0 4px 4px;
 }
 .text-portfolio {
     padding-bottom: 72px;
@@ -260,6 +262,9 @@ p {
 }
 img {
     display: block;
+}
+.portfolio-text {
+    padding-bottom: 8px;
 }
 .main-footer {
     background-color: #2e2f42;
