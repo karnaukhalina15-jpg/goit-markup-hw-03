@@ -37,12 +37,11 @@ ul {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 20px 0;
 }
 .header-nav {
     display: flex;
     align-items: center;
-    gap: 48px;
+    justify-content: space-between;
 }
 .logo {
     font-family: "Raleway", sans-serif;
@@ -65,6 +64,9 @@ ul {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+}
+.section {
+    padding: 120px 0;
 }
 .section-hero {
     background-color: #2e2f42;
@@ -115,14 +117,13 @@ ul {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+    gap: 40px;
 }
 .section-container {
-    height: 600px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 188px 0;
 }
 h1 {
     color: #ffffff; 
@@ -131,7 +132,7 @@ h1 {
     line-height: 1.07;
     letter-spacing: 0.02em;
     width: 496px;
-    height: 120px; 
+    margin: 48px;;
 }
 .btn-primary {
     border-radius: 4px;
@@ -145,7 +146,7 @@ h1 {
     color: #ffffff;
     background-color: #4d5ae5;
     cursor: pointer;
-    margin: 48px auto 0 auto;
+     margin: 48px auto 0 auto;
 }
 .btn-primary:hover,
 .btn-primary:focus {
@@ -159,6 +160,7 @@ h2 {
     text-align: center;
     color: #2e2f42;
     margin: 0;
+    padding: 0;
 }
 .team-section {
    background-color: #f4f4fd; 
@@ -178,18 +180,15 @@ h2 {
 }
 
 .header-container {
-    width: calc(100% - 72 / 4);
+    width: calc((100% - 72) / 4);
  
 }
 .hero-list {
      display: flex;
      column-gap: 24px;
-     padding: 120px 0;
      justify-content: center;
 }
-.hero-item {
-    height: 104px;
-}
+
 h3 {
     color: #2e2f42;
     font-weight: 500;
@@ -197,6 +196,7 @@ h3 {
     line-height: 1.2;
     letter-spacing: 0.02em;
     margin: 0;
+    padding: 0;
 }
 .hero-text {
     padding-bottom: 8px;
@@ -210,21 +210,15 @@ p {
     letter-spacing: 0.02em;
     color: #434455;
     margin: 0;
-}
-.team-container {
-    width: 1440px;
-    height: 732px;
-    padding-bottom: 120px;;
+    padding: 0;
 }
 .team-text {
-    padding: 120px 0 72px 0;
+    padding-bottom: 72px;
 }
 .team-list {
     display: flex;
     justify-content: space-between;
     column-gap: 24px;
-    height: 380px;
-    padding-bottom: 120px;
     width: calc(100% - (24px * 3) / 4);
     margin: 0;
 }
@@ -262,10 +256,6 @@ p {
 }
 img {
     display: block;
-}
-.portfolio-container {
-    padding-bottom: 120px;
-    padding-top: 120px;
 }
 .main-footer {
     background-color: #2e2f42;
